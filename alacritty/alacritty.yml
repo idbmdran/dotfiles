@@ -150,7 +150,7 @@ font:
         style: Bold Italic
 
     # Point size
-    size: 12.0
+    size: 14.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter spacing
@@ -175,11 +175,11 @@ font:
 draw_bold_text_with_bright_colors: true
 
 # Colors (Tomorrow Night)
-#colors:
+colors:
   # Default colors
-  #primary:
-  # background: '0x282c34' #'#1d1f21'
-  # foreground: '0xbbc2cf' #'#c5c8c6'
+  primary:
+    background: '#000000' #'#1d1f21'
+    foreground: '#00ff00' #'#c5c8c6'
 
     # Bright and dim foreground colors
     #
@@ -266,26 +266,26 @@ draw_bold_text_with_bright_colors: true
   #  background: CellForeground
 
   # Normal colors
-  #normal:
-  #  black:   '#1d1f21'
-  #  red:     '#cc6666'
-  #  green:   '#b5bd68'
-  #  yellow:  '#f0c674'
-  #  blue:    '#81a2be'
-  #  magenta: '#b294bb'
-  #  cyan:    '#8abeb7'
-  #  white:   '#c5c8c6'
+  normal:
+   black:   '#1d1f21'
+   red:     '#cc6666'
+   green:   '#b5bd68'
+   yellow:  '#f0c674'
+   blue:    '#81a2be'
+   magenta: '#b294bb'
+   cyan:    '#2ab5b5'
+   white:   '#c5c8c6'
 
   # Bright colors
-  #bright:
-  #  black:   '#666666'
-  #  red:     '#d54e53'
-  #  green:   '#b9ca4a'
-  #  yellow:  '#e7c547'
-  #  blue:    '#7aa6da'
-  #  magenta: '#c397d8'
-  #  cyan:    '#70c0b1'
-  #  white:   '#eaeaea'
+  bright:
+   black:   '#666666'
+   red:     '#d54e53'
+   green:   '#b9ca4a'
+   yellow:  '#e7c547'
+   blue:    '#7aa6da'
+   magenta: '#c397d8'
+   cyan:    '#2ab5b5'
+   white:   '#eaeaea'
 
   # Dim colors
   #
